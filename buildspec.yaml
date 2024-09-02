@@ -12,9 +12,9 @@ phases:
       - code/ci_actions/01_keychain.sh
       # - code/ci_actions/02_amplify.sh
 
-  # build:
-  #   commands:
-  #     - code/ci_actions/03_build.sh
+  build:
+    commands:
+      - code/ci_actions/03_build.sh
   #     - code/ci_actions/04_local_tests.sh
 
   post_build:
