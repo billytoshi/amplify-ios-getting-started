@@ -572,7 +572,7 @@
 				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_ASSET_PATHS = "\"getting started/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
-				
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 56U756R2L2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "getting started/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -603,7 +603,7 @@
 				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_ASSET_PATHS = "\"getting started/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
-				
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 56U756R2L2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "getting started/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -633,7 +633,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				
+				DEVELOPMENT_TEAM = 56U756R2L2;
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -661,7 +661,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				
+				DEVELOPMENT_TEAM = 56U756R2L2;
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -688,8 +688,8 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				
-				
+				DEVELOPMENT_TEAM = 56U756R2L2;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 56U756R2L2;
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -721,8 +721,8 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				
-				
+				DEVELOPMENT_TEAM = 56U756R2L2;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 56U756R2L2;
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
