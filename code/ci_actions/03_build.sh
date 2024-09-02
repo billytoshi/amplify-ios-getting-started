@@ -25,14 +25,7 @@ plutil -replace CFBundleVersion -string $BUILD_NUMBER "./getting started/Info.pl
 
 security unlock-keychain -p $KEYCHAIN_PASSWORD $KEYCHAIN_NAME
 
-# xcodebuild clean archive                    \
-#            -project  "$PROJECT"             \
-#            -scheme "$SCHEME"                \
-#            -archivePath "$ARCHIVE_PATH"     \
-#            -derivedDataPath "${BUILD_PATH}" \
-#            -configuration "$CONFIGURATION"   | $BREW_PATH/xcbeautify
-
-xcodebuild clean                    \
+xcodebuild clean archive                    \
            -project  "$PROJECT"             \
            -scheme "$SCHEME"                \
            -archivePath "$ARCHIVE_PATH"     \
